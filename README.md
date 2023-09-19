@@ -7,6 +7,7 @@
 - Hossam Elwahsh - [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white)](https://github.com/HossamElwahsh) [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hossam-elwahsh/)
 - Adham Elserougy - [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white)](https://github.com/Adhamelserougy)
 - Salma Faragalla - [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white)](https://github.com/SalmaFaragalla)
+- Mahmoud Badr - [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white)](https://github.com/mbadr12)
 
 ### Ethernet Project
 
@@ -24,8 +25,8 @@
   - `/[color]` turns on an LED with the selected color on the Tiva-C port
     - supported colors: red, blue, green, magenta, yellow, cyan
   - `/username [new username]` sets/updates your username
-  - `/pm [username] [msg]` send a private message transmission gears count / delays etc. can be updated from `app_config.h` file
- 
-### Video Uploading...
+  - `/pm [username] [msg]` send a private message 
 
-[//]: # ([![YouTube]&#40;https://img.shields.io/badge/YouTube-%23FF0000.svg?style=flat&logo=YouTube&logoColor=white&#41;]&#40;&#41;)
+### Video - Youtube:
+
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=flat&logo=YouTube&logoColor=white)](https://youtu.be/bJr50K12g0Q)
