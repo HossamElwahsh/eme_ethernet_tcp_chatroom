@@ -103,7 +103,7 @@ def client_thread():
                                 clientData.username = un.replace(' ', '_')  # handle white spaces
                                 clientData.connection.send(
                                     f"\n\n[SERV] Username set to {clientData.username}\n\n".encode())
-                                print(f"\n{clientData.address} Username set to {clientData.username} {un}\n\n")
+                                print(f"\n{clientData.address} Username set to ({clientData.username})\n\n")
 
                             else:
                                 # print error
