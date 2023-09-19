@@ -40,9 +40,9 @@ list_of_commands = [
     Command(CommandMapping.PRIVATE_MSG, "/pm [username] [msg] : send a private msg"),
 
     # Led Control
-    Command(CommandMapping.LED_RED, "/red"),
-    Command(CommandMapping.LED_BLUE, "/blue"),
-    Command(CommandMapping.LED_GREEN, "/green"),
-    Command(CommandMapping.LED_YELLOW, "/yellow"),
-    Command(CommandMapping.LED_MAGENTA, "/magenta"),
+    Command(CommandMapping.LED_RED, "/red : turns on red LED"),
+    Command(CommandMapping.LED_BLUE, "/blue : turns on blue LED"),
+    Command(CommandMapping.LED_GREEN, "/green : turns on green LED"),
+    Command(CommandMapping.LED_YELLOW, "/yellow : turns on yellow LED"),
+    Command(CommandMapping.LED_MAGENTA, "/magenta : turns on magenta LED"),
 ]

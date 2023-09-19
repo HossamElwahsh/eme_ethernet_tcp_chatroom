@@ -1,4 +1,4 @@
-from server.chat_server import server_start
+from chat_server import server_start
 
 # This is a sample Python script.
 
