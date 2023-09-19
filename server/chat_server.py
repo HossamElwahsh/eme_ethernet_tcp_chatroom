@@ -103,9 +103,11 @@ def client_thread():
                                 clientData.username = un.replace(' ', '_')  # handle white spaces
                                 clientData.connection.send(
                                     f"\n\n[SERV] Username set to {clientData.username}\n\n".encode())
+                                print(f"\n{clientData.address} Username set to {clientData.username} {un}\n\n")
 
                             else:
                                 # print error
+                                print(f"\n{clientData.username} Trying to set bad username {un}\n\n")
                                 clientData.connection.send("[SERV] Bad username inserted\n".encode())
 
                         elif message.startswith(CommandMapping.PRIVATE_MSG.value):
@@ -125,9 +127,13 @@ def client_thread():
                                     clientData.connection.send(
                                         f"\n\n[SERV] Msg sent to [{un}]\n\n".encode())
 
+                                    print(f"\nPM {clientData.username} -> {to_client.username}: {pm}\n\n")
+
                                 else:
                                     clientData.connection.send(
                                         f"\n\n[SERV] username ({un}) doesn't exist.\n\n".encode())
+
+                                    print(f"\n[ERROR] PM {clientData.username} -> {un}, username doesn't exist\n\n")
 
 
                             else:
