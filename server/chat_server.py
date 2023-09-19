@@ -68,7 +68,7 @@ def client_thread():
                 match message:
                     case CommandMapping.HELP.value:
                         clientData.connection.send(
-                            "\n############\nCOMMANDS LIST:\n\n - /username [username] : sets your username\n\n".encode())
+                            "\n############\nCOMMANDS LIST:\n\n".encode())
                         # Print all available commands
                         for cmd in list_of_commands:
                             clientData.connection.send(f"- {cmd.command_help_line}\n".encode())
